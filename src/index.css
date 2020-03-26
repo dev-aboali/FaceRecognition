@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background: linear-gradient(89deg, #FF5EDF 0%, #04c8DE 100%);
+
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.particles {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+}
+
