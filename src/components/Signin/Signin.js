@@ -33,7 +33,7 @@ class Signin extends Component{
                     this.props.onRouteChange('home');
                     
                 } else {
-                    console.log(user)
+                    console.log('wrong credentials');
                 }
               
             })

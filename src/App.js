@@ -124,7 +124,7 @@ class App extends Component {
           this.displayFaceBox(this.calculateFaceLocation(response));
       }
     })
-    .catch(error => console.log(error));
+    .catch(error => console.log(error))
   }
   render() {
     let {route, isSignedIn, imageUrl, box} = this.state;
